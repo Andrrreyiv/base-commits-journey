@@ -39,6 +39,29 @@
 - **Что проверяет:** ссылки в Markdown, наличие ключевых файлов, гигиена Markdown (trailing spaces, финальный перевод строки).
 - **Где смотреть логи:** [Actions](https://github.com/Andrrreyiv/base-commits-journey/actions) → workflow **CI**.
 
+## Структура репозитория
+
+```
+.
+├── docs/           # Документация: гайды 01–14, FAQ, глоссарий
+├── scripts/        # Скрипты проверки (Python stdlib): ссылки, валидация, гигиена, прогресс
+├── .github/        # GitHub: workflows (CI), issue/PR шаблоны, CODEOWNERS, dependabot
+├── .vscode/        # Настройки редактора (Cursor/VS Code)
+├── README.md       # Главная страница
+├── PROGRESS.md     # Mini-issue трекинг
+├── ROADMAP.md      # Этапы и задачи
+├── CHANGELOG.md    # История изменений
+├── LICENSE         # MIT
+├── CONTRIBUTING.md # Как вносить вклад
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── SUPPORT.md
+├── Makefile        # Команды: check, links, validate, hygiene, progress
+├── .editorconfig   # Стиль кода/разметки
+├── .gitignore
+└── .gitattributes
+```
+
 ## Как работать
 
 1. Выбери задачу из [PROGRESS.md](PROGRESS.md) или [ROADMAP.md](ROADMAP.md).
