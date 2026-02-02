@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-007 | 2025-02-02 | Docs: add authentication via HTTPS guide | 1) docs/05-auth-https-gcm.md создан. 2) Git Credential Manager, 2FA, PAT когда нужен. | docs/05-auth-https-gcm.md, PROGRESS.md | ✅ Done | Вход по HTTPS. |
 | P-006 | 2025-02-02 | Docs: add commit conveyor guide | 1) docs/04-commit-conveyor.md создан. 2) status/add/commit/push, как убедиться что коммит публичный. | docs/04-commit-conveyor.md, PROGRESS.md | ✅ Done | Базовый цикл коммитов. |
 | P-005 | 2025-02-02 | Docs: add repo creation and clone guide | 1) docs/03-create-and-clone-repo.md создан. 2) Создание public repo, clone HTTPS, типовые ошибки URL 400/404. | docs/03-create-and-clone-repo.md, PROGRESS.md | ✅ Done | Как создать репо и склонировать. |
 | P-004 | 2025-02-02 | Docs: add windows git install guide | 1) docs/02-install-git-windows.md создан. 2) Установка Git, проверка, базовая настройка name/email. | docs/02-install-git-windows.md, PROGRESS.md | ✅ Done | Установка Git на Windows. |
