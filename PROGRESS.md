@@ -6,6 +6,9 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-034 | 2025-02-02 | CI: add basic workflow skeleton | 1) .github/workflows/ci.yml создан. 2) on push/pull_request, checkout, setup-python. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | Базовый CI. |
+| P-033 | 2025-02-02 | Chore: add CODEOWNERS | 1) .github/CODEOWNERS создан. 2) Владелец репо. | .github/CODEOWNERS, PROGRESS.md | ✅ Done | Ответственный за репо. |
+| P-032 | 2025-02-02 | Chore: add SUPPORT guidelines | 1) SUPPORT.md создан. 2) Как просить помощи, какие команды/логи приложить. | SUPPORT.md, PROGRESS.md | ✅ Done | Гайд по поддержке. |
 | P-031 | 2025-02-02 | Chore: add SECURITY policy | 1) SECURITY.md создан. 2) Как сообщать, что не публиковать. | SECURITY.md, PROGRESS.md | ✅ Done | Политика безопасности. |
 | P-030 | 2025-02-02 | Chore: add pull request template | 1) .github/pull_request_template.md создан. 2) Чеклист проверки, как воспроизвести. | .github/pull_request_template.md, PROGRESS.md | ✅ Done | Шаблон PR. |
 | P-029 | 2025-02-02 | Chore: configure issue templates | 1) .github/ISSUE_TEMPLATE/config.yml создан. 2) blank issues отключены, ссылки на docs/FAQ. | .github/ISSUE_TEMPLATE/config.yml, PROGRESS.md | ✅ Done | Настройка шаблонов issue. |
