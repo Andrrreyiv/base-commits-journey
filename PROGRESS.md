@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-038 | 2025-02-02 | CI: wire repo validator into workflow | 1) ci.yml: запуск python scripts/validate_repo.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет структуру. |
 | P-037 | 2025-02-02 | Scripts: add repo validator (stdlib) | 1) scripts/validate_repo.py создан. 2) Проверяет наличие ключевых файлов/папок. | scripts/validate_repo.py, PROGRESS.md | ✅ Done | Валидация структуры репо. |
 | P-036 | 2025-02-02 | CI: wire link checker into workflow | 1) ci.yml: запуск python scripts/check_links.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет ссылки. |
 | P-035 | 2025-02-02 | Scripts: add link checker (stdlib) | 1) scripts/check_links.py создан. 2) Проверяет относительные ссылки на существование файлов. | scripts/check_links.py, PROGRESS.md | ✅ Done | Проверка ссылок в Markdown. |

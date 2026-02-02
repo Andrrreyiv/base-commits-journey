@@ -19,3 +19,9 @@ jobs:
 
       - name: Run link checker
         run: python scripts/check_links.py
+
+      - name: Run repo validator
+        run: python scripts/validate_repo.py
+
+      - name: Run markdown hygiene
+        run: python scripts/check_markdown_hygiene.py
