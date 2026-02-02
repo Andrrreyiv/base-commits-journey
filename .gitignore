@@ -4,9 +4,8 @@ ehthumbs.db
 Desktop.ini
 *.lnk
 
-# IDE / Editors
+# IDE / Editors ( .vscode/ закоммичен для общих настроек проекта )
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
