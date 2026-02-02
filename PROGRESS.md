@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-045 | 2025-02-02 | Docs: add Cursor workflow guide | 1) docs/14-cursor-workflow.md создан. 2) Как работать с агентом, diff, что не коммитить. | docs/14-cursor-workflow.md, PROGRESS.md | ✅ Done | Работа в Cursor. |
 | P-044 | 2025-02-02 | Chore: add editor settings for Cursor/VS Code | 1) .vscode/settings.json + extensions.json созданы. 2) Аккуратно, без лишнего. | .vscode/settings.json, .vscode/extensions.json, PROGRESS.md | ✅ Done | Настройки редактора. |
 | P-043 | 2025-02-02 | Chore: add Makefile with common commands | 1) Makefile создан. 2) targets check/links/validate/hygiene/progress + заметка для Windows. | Makefile, PROGRESS.md | ✅ Done | Удобные команды проверок. |
 | P-042 | 2025-02-02 | Docs: document scripts usage | 1) docs/13-scripts-usage.md создан. 2) Как запускать scripts/*, примеры команд, типовые ошибки. | docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Документация по скриптам. |
