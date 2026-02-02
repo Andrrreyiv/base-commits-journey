@@ -6,6 +6,8 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-020 | 2025-02-02 | Chore: add MIT license | 1) LICENSE (MIT) создан. | LICENSE, PROGRESS.md | ✅ Done | Лицензия репо. |
+| P-019 | 2025-02-02 | Docs: add CHANGELOG | 1) CHANGELOG.md создан. 2) Unreleased + правила ведения. | CHANGELOG.md, PROGRESS.md | ✅ Done | История изменений. |
 | P-018 | 2025-02-02 | Docs: add ROADMAP milestones | 1) ROADMAP.md создан. 2) Этапы и списки задач, реалистичный темп. | ROADMAP.md, PROGRESS.md | ✅ Done | План этапов. |
 | P-017 | 2025-02-02 | Docs: improve README structure and navigation | 1) README: секции Цель, Навигация по docs, Прогресс, Как работать. 2) Ссылки на docs и PROGRESS. | README.md, PROGRESS.md | ✅ Done | Главная страница репо. |
 | P-016 | 2025-02-02 | Docs: add glossary | 1) docs/GLOSSARY.md создан. 2) Термины: repo/remote/origin/branch/commit/push/PR и др. | docs/GLOSSARY.md, PROGRESS.md | ✅ Done | Единая терминология. |
