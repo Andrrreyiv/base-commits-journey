@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-012 | 2025-02-02 | Docs: add troubleshooting guide | 1) docs/10-troubleshooting.md создан. 2) upstream, conflicts, auth failed, push rejected. | docs/10-troubleshooting.md, PROGRESS.md | ✅ Done | Решение типовых ошибок. |
 | P-011 | 2025-02-02 | Docs: add commit messages style guide | 1) docs/09-commit-messages.md создан. 2) Шаблоны сообщений, плохие vs хорошие примеры. | docs/09-commit-messages.md, PROGRESS.md | ✅ Done | Единый стиль коммитов. |
 | P-010 | 2025-02-02 | Docs: add PR workflow guide | 1) docs/08-pr-workflow.md создан. 2) PR, ревью, merge, связка с issue. | docs/08-pr-workflow.md, PROGRESS.md | ✅ Done | Workflow Pull Request. |
 | P-009 | 2025-02-02 | Docs: add branching basics guide | 1) docs/07-branches-basics.md создан. 2) Ветки, когда создавать, switch/checkout, safe workflow. | docs/07-branches-basics.md, PROGRESS.md | ✅ Done | Основы веток. |
