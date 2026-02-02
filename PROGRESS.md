@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-022 | 2025-02-02 | Chore: add CODE_OF_CONDUCT | 1) CODE_OF_CONDUCT.md создан. 2) Краткая, структурированная. | CODE_OF_CONDUCT.md, PROGRESS.md | ✅ Done | Правила поведения. |
 | P-021 | 2025-02-02 | Docs: mention license and policies in README | 1) README: кратко про LICENSE, CODE_OF_CONDUCT, SECURITY, SUPPORT. | README.md, PROGRESS.md | ✅ Done | Ссылки на политики. |
 | P-020 | 2025-02-02 | Chore: add MIT license | 1) LICENSE (MIT) создан. | LICENSE, PROGRESS.md | ✅ Done | Лицензия репо. |
 | P-019 | 2025-02-02 | Docs: add CHANGELOG | 1) CHANGELOG.md создан. 2) Unreleased + правила ведения. | CHANGELOG.md, PROGRESS.md | ✅ Done | История изменений. |
