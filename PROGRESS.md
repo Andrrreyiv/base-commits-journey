@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-026 | 2025-02-02 | Chore: add gitattributes for line endings | 1) .gitattributes создан. 2) text=auto, eol=lf для md и др. | .gitattributes, PROGRESS.md | ✅ Done | Нормализация переносов строк. |
 | P-025 | 2025-02-02 | Chore: improve gitignore for windows and common tooling | 1) .gitignore создан. 2) Windows, IDE, Python/Node, logs, temp. | .gitignore, PROGRESS.md | ✅ Done | Игнор мусора и секретов. |
 | P-024 | 2025-02-02 | Chore: add editorconfig | 1) .editorconfig создан. 2) utf-8, eol, trim ws, indent. | .editorconfig, PROGRESS.md | ✅ Done | Единый стиль в редакторах. |
 | P-023 | 2025-02-02 | Docs: add CONTRIBUTING guide | 1) CONTRIBUTING.md создан. 2) Ветки/PR, стиль коммитов, локальные проверки, шаблон PR. | CONTRIBUTING.md, PROGRESS.md | ✅ Done | Как вносить вклад. |
