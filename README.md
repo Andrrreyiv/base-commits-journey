@@ -46,3 +46,5 @@
 - [CONTRIBUTING](CONTRIBUTING.md)
 - [SECURITY](SECURITY.md)
 - [SUPPORT](SUPPORT.md)
+
+Подробнее см. в указанных файлах.

@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-021 | 2025-02-02 | Docs: mention license and policies in README | 1) README: кратко про LICENSE, CODE_OF_CONDUCT, SECURITY, SUPPORT. | README.md, PROGRESS.md | ✅ Done | Ссылки на политики. |
 | P-020 | 2025-02-02 | Chore: add MIT license | 1) LICENSE (MIT) создан. | LICENSE, PROGRESS.md | ✅ Done | Лицензия репо. |
 | P-019 | 2025-02-02 | Docs: add CHANGELOG | 1) CHANGELOG.md создан. 2) Unreleased + правила ведения. | CHANGELOG.md, PROGRESS.md | ✅ Done | История изменений. |
 | P-018 | 2025-02-02 | Docs: add ROADMAP milestones | 1) ROADMAP.md создан. 2) Этапы и списки задач, реалистичный темп. | ROADMAP.md, PROGRESS.md | ✅ Done | План этапов. |
