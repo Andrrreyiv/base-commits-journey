@@ -1,5 +1,7 @@
 # Base Commits Journey
 
+[![CI](https://github.com/Andrrreyiv/base-commits-journey/actions/workflows/ci.yml/badge.svg)](https://github.com/Andrrreyiv/base-commits-journey/actions/workflows/ci.yml)
+
 Репозиторий для пути к 100 публичным коммитам: документация, чеклисты и скрипты.
 
 ## Цель
@@ -31,6 +33,11 @@
 - **Mini-issue трекинг:** [PROGRESS.md](PROGRESS.md) — каждая задача = одна строка в таблице.
 - **План этапов:** [ROADMAP.md](ROADMAP.md).
 - **История изменений:** [CHANGELOG.md](CHANGELOG.md).
+
+## CI
+
+- **Что проверяет:** ссылки в Markdown, наличие ключевых файлов, гигиена Markdown (trailing spaces, финальный перевод строки).
+- **Где смотреть логи:** [Actions](https://github.com/Andrrreyiv/base-commits-journey/actions) → workflow **CI**.
 
 ## Как работать
 

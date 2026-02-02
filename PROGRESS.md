@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-047 | 2025-02-02 | Docs: add CI badge and explanation | 1) README: бейдж CI, что проверяет, где смотреть логи. | README.md, PROGRESS.md | ✅ Done | Видимость статуса CI. |
 | P-046 | 2025-02-02 | CI: add workflow_dispatch support | 1) ci.yml: workflow_dispatch для ручного запуска. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | Ручной запуск CI. |
 | P-045 | 2025-02-02 | Docs: add Cursor workflow guide | 1) docs/14-cursor-workflow.md создан. 2) Как работать с агентом, diff, что не коммитить. | docs/14-cursor-workflow.md, PROGRESS.md | ✅ Done | Работа в Cursor. |
 | P-044 | 2025-02-02 | Chore: add editor settings for Cursor/VS Code | 1) .vscode/settings.json + extensions.json созданы. 2) Аккуратно, без лишнего. | .vscode/settings.json, .vscode/extensions.json, PROGRESS.md | ✅ Done | Настройки редактора. |
