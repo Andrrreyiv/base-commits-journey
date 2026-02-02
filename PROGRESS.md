@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-042 | 2025-02-02 | Docs: document scripts usage | 1) docs/13-scripts-usage.md создан. 2) Как запускать scripts/*, примеры команд, типовые ошибки. | docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Документация по скриптам. |
 | P-041 | 2025-02-02 | Scripts: add progress updater (stdlib) | 1) scripts/update_progress.py создан. 2) Обновляет строку Progress: X/100 в README по git rev-list --count HEAD. | scripts/update_progress.py, PROGRESS.md | ✅ Done | Автообновление счётчика. |
 | P-040 | 2025-02-02 | CI: wire markdown hygiene into workflow | 1) ci.yml: запуск python scripts/check_markdown_hygiene.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет гигиену. |
 | P-039 | 2025-02-02 | Scripts: add markdown hygiene checker (stdlib) | 1) scripts/check_markdown_hygiene.py создан. 2) trailing spaces, двойные пустые строки, финальный перевод строки. | scripts/check_markdown_hygiene.py, PROGRESS.md | ✅ Done | Гигиена Markdown. |
