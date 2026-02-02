@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-024 | 2025-02-02 | Chore: add editorconfig | 1) .editorconfig создан. 2) utf-8, eol, trim ws, indent. | .editorconfig, PROGRESS.md | ✅ Done | Единый стиль в редакторах. |
 | P-023 | 2025-02-02 | Docs: add CONTRIBUTING guide | 1) CONTRIBUTING.md создан. 2) Ветки/PR, стиль коммитов, локальные проверки, шаблон PR. | CONTRIBUTING.md, PROGRESS.md | ✅ Done | Как вносить вклад. |
 | P-022 | 2025-02-02 | Chore: add CODE_OF_CONDUCT | 1) CODE_OF_CONDUCT.md создан. 2) Краткая, структурированная. | CODE_OF_CONDUCT.md, PROGRESS.md | ✅ Done | Правила поведения. |
 | P-021 | 2025-02-02 | Docs: mention license and policies in README | 1) README: кратко про LICENSE, CODE_OF_CONDUCT, SECURITY, SUPPORT. | README.md, PROGRESS.md | ✅ Done | Ссылки на политики. |
