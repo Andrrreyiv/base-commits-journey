@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-043 | 2025-02-02 | Chore: add Makefile with common commands | 1) Makefile создан. 2) targets check/links/validate/hygiene/progress + заметка для Windows. | Makefile, PROGRESS.md | ✅ Done | Удобные команды проверок. |
 | P-042 | 2025-02-02 | Docs: document scripts usage | 1) docs/13-scripts-usage.md создан. 2) Как запускать scripts/*, примеры команд, типовые ошибки. | docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Документация по скриптам. |
 | P-041 | 2025-02-02 | Scripts: add progress updater (stdlib) | 1) scripts/update_progress.py создан. 2) Обновляет строку Progress: X/100 в README по git rev-list --count HEAD. | scripts/update_progress.py, PROGRESS.md | ✅ Done | Автообновление счётчика. |
 | P-040 | 2025-02-02 | CI: wire markdown hygiene into workflow | 1) ci.yml: запуск python scripts/check_markdown_hygiene.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет гигиену. |
