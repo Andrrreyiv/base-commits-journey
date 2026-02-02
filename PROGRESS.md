@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-036 | 2025-02-02 | CI: wire link checker into workflow | 1) ci.yml: запуск python scripts/check_links.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет ссылки. |
 | P-035 | 2025-02-02 | Scripts: add link checker (stdlib) | 1) scripts/check_links.py создан. 2) Проверяет относительные ссылки на существование файлов. | scripts/check_links.py, PROGRESS.md | ✅ Done | Проверка ссылок в Markdown. |
 | P-034 | 2025-02-02 | CI: add basic workflow skeleton | 1) .github/workflows/ci.yml создан. 2) on push/pull_request, checkout, setup-python. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | Базовый CI. |
 | P-033 | 2025-02-02 | Chore: add CODEOWNERS | 1) .github/CODEOWNERS создан. 2) Владелец репо. | .github/CODEOWNERS, PROGRESS.md | ✅ Done | Ответственный за репо. |
