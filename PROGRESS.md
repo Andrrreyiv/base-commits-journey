@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-009 | 2025-02-02 | Docs: add branching basics guide | 1) docs/07-branches-basics.md создан. 2) Ветки, когда создавать, switch/checkout, safe workflow. | docs/07-branches-basics.md, PROGRESS.md | ✅ Done | Основы веток. |
 | P-008 | 2025-02-02 | Docs: add SSH setup guide | 1) docs/06-auth-ssh.md создан. 2) ssh-keygen, добавление ключа, тест подключения. | docs/06-auth-ssh.md, PROGRESS.md | ✅ Done | Подключение по SSH. |
 | P-007 | 2025-02-02 | Docs: add authentication via HTTPS guide | 1) docs/05-auth-https-gcm.md создан. 2) Git Credential Manager, 2FA, PAT когда нужен. | docs/05-auth-https-gcm.md, PROGRESS.md | ✅ Done | Вход по HTTPS. |
 | P-006 | 2025-02-02 | Docs: add commit conveyor guide | 1) docs/04-commit-conveyor.md создан. 2) status/add/commit/push, как убедиться что коммит публичный. | docs/04-commit-conveyor.md, PROGRESS.md | ✅ Done | Базовый цикл коммитов. |
