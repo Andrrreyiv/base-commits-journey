@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Документация и FAQ
+    url: https://github.com/Andrrreyiv/base-commits-journey/blob/main/docs/README.md
+    about: Оглавление документации и частые вопросы
+  - name: FAQ
+    url: https://github.com/Andrrreyiv/base-commits-journey/blob/main/docs/FAQ.md
+    about: Частые вопросы и короткие ответы
