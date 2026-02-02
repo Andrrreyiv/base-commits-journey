@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-010 | 2025-02-02 | Docs: add PR workflow guide | 1) docs/08-pr-workflow.md создан. 2) PR, ревью, merge, связка с issue. | docs/08-pr-workflow.md, PROGRESS.md | ✅ Done | Workflow Pull Request. |
 | P-009 | 2025-02-02 | Docs: add branching basics guide | 1) docs/07-branches-basics.md создан. 2) Ветки, когда создавать, switch/checkout, safe workflow. | docs/07-branches-basics.md, PROGRESS.md | ✅ Done | Основы веток. |
 | P-008 | 2025-02-02 | Docs: add SSH setup guide | 1) docs/06-auth-ssh.md создан. 2) ssh-keygen, добавление ключа, тест подключения. | docs/06-auth-ssh.md, PROGRESS.md | ✅ Done | Подключение по SSH. |
 | P-007 | 2025-02-02 | Docs: add authentication via HTTPS guide | 1) docs/05-auth-https-gcm.md создан. 2) Git Credential Manager, 2FA, PAT когда нужен. | docs/05-auth-https-gcm.md, PROGRESS.md | ✅ Done | Вход по HTTPS. |
