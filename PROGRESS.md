@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-014 | 2025-02-02 | Docs: add guild verification checklist | 1) docs/12-guild-verify-checklist.md создан. 2) Connect GitHub, verify, что проверять перед verify. | docs/12-guild-verify-checklist.md, PROGRESS.md | ✅ Done | Чеклист верификации. |
 | P-013 | 2025-02-02 | Docs: add public commits explanation | 1) docs/11-public-commits-how-counted.md создан. 2) Где смотреть commits/main, public vs private. | docs/11-public-commits-how-counted.md, PROGRESS.md | ✅ Done | Как считаются коммиты. |
 | P-012 | 2025-02-02 | Docs: add troubleshooting guide | 1) docs/10-troubleshooting.md создан. 2) upstream, conflicts, auth failed, push rejected. | docs/10-troubleshooting.md, PROGRESS.md | ✅ Done | Решение типовых ошибок. |
 | P-011 | 2025-02-02 | Docs: add commit messages style guide | 1) docs/09-commit-messages.md создан. 2) Шаблоны сообщений, плохие vs хорошие примеры. | docs/09-commit-messages.md, PROGRESS.md | ✅ Done | Единый стиль коммитов. |
