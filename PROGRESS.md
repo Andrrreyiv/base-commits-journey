@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-016 | 2025-02-02 | Docs: add glossary | 1) docs/GLOSSARY.md создан. 2) Термины: repo/remote/origin/branch/commit/push/PR и др. | docs/GLOSSARY.md, PROGRESS.md | ✅ Done | Единая терминология. |
 | P-015 | 2025-02-02 | Docs: add FAQ | 1) docs/FAQ.md создан. 2) 10–12 частых вопросов и короткие ответы. | docs/FAQ.md, PROGRESS.md | ✅ Done | Быстрые ответы на вопросы. |
 | P-014 | 2025-02-02 | Docs: add guild verification checklist | 1) docs/12-guild-verify-checklist.md создан. 2) Connect GitHub, verify, что проверять перед verify. | docs/12-guild-verify-checklist.md, PROGRESS.md | ✅ Done | Чеклист верификации. |
 | P-013 | 2025-02-02 | Docs: add public commits explanation | 1) docs/11-public-commits-how-counted.md создан. 2) Где смотреть commits/main, public vs private. | docs/11-public-commits-how-counted.md, PROGRESS.md | ✅ Done | Как считаются коммиты. |
