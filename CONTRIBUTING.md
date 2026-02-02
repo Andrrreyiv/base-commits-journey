@@ -13,7 +13,7 @@
 
 - Один коммит — одна логическая правка.
 - Формат: `Тип: краткое описание` (Docs / Chore / CI / Fix и т.д.).
-- Подробнее: [docs/09-commit-messages.md](docs/09-commit-messages.md).
+- Подробнее: [Стиль коммитов](docs/09-commit-messages.md).
 
 ## Локальные проверки
 
