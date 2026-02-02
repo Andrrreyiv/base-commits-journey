@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-031 | 2025-02-02 | Chore: add SECURITY policy | 1) SECURITY.md создан. 2) Как сообщать, что не публиковать. | SECURITY.md, PROGRESS.md | ✅ Done | Политика безопасности. |
 | P-030 | 2025-02-02 | Chore: add pull request template | 1) .github/pull_request_template.md создан. 2) Чеклист проверки, как воспроизвести. | .github/pull_request_template.md, PROGRESS.md | ✅ Done | Шаблон PR. |
 | P-029 | 2025-02-02 | Chore: configure issue templates | 1) .github/ISSUE_TEMPLATE/config.yml создан. 2) blank issues отключены, ссылки на docs/FAQ. | .github/ISSUE_TEMPLATE/config.yml, PROGRESS.md | ✅ Done | Настройка шаблонов issue. |
 | P-028 | 2025-02-02 | Chore: add issue template (feature request) | 1) .github/ISSUE_TEMPLATE/feature_request.md создан. | .github/ISSUE_TEMPLATE/feature_request.md, PROGRESS.md | ✅ Done | Шаблон фичи. |
