@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-089 | 2025-02-02 | Chore: add consistent fixtures structure | 1) tests/fixtures/ + README. | tests/fixtures/README.md, PROGRESS.md | ✅ Done | Структура fixtures. |
 | P-088 | 2025-02-02 | Docs: add testing guide | 1) docs/28-testing.md. 2) Ссылка в docs/README. 3) Как запускать тесты. | docs/28-testing.md, docs/README.md, PROGRESS.md | ✅ Done | Гайд по тестам. |
 | P-087 | 2025-02-02 | Tests: add tests for large files checker | 1) tests/test_check_large_files.py. 2) Тесты для check_large_files. | tests/test_check_large_files.py, PROGRESS.md | ✅ Done | Тесты больших файлов. |
 | P-086 | 2025-02-02 | Tests: add tests for line endings checker | 1) tests/test_check_line_endings.py. 2) Тесты для check_line_endings. | tests/test_check_line_endings.py, PROGRESS.md | ✅ Done | Тесты переносов строк. |
