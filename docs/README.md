@@ -19,6 +19,7 @@
 13. [Использование скриптов](13-scripts-usage.md) — как запускать scripts/*.
 14. [Работа в Cursor](14-cursor-workflow.md) — агент, diff, что не коммитить.
 15. [Quickstart: ежедневные коммиты](15-quickstart.md) — цикл на день, шаги и проверки.
+16. [Отмена изменений: undo, reset, revert](16-undo-reset-revert.md) — когда что применять.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
