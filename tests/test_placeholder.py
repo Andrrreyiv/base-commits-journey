@@ -1,0 +1,7 @@
+"""Placeholder test so discover finds at least one test."""
+import unittest
+
+
+class TestPlaceholder(unittest.TestCase):
+    def test_placeholder(self):
+        self.assertTrue(True)
