@@ -21,6 +21,7 @@
 15. [Quickstart: ежедневные коммиты](15-quickstart.md) — цикл на день, шаги и проверки.
 16. [Отмена изменений: undo, reset, revert](16-undo-reset-revert.md) — когда что применять.
 17. [Конфликты слияния](17-merge-conflicts.md) — как разрешать конфликты merge/rebase.
+18. [Теги и релизы](18-tags-and-releases.md) — создание тегов и Release на GitHub.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 

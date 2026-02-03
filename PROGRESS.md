@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-054 | 2025-02-02 | Docs: add tags and releases guide | 1) docs/18-tags-and-releases.md создан. 2) Ссылка в docs/README.md. 3) Создание тегов и Release. | docs/18-tags-and-releases.md, docs/README.md, PROGRESS.md | ✅ Done | Теги и релизы на GitHub. |
 | P-053 | 2025-02-02 | Docs: add merge conflicts guide | 1) docs/17-merge-conflicts.md создан. 2) Ссылка в docs/README.md. 3) Как находить и разрешать конфликты. | docs/17-merge-conflicts.md, docs/README.md, PROGRESS.md | ✅ Done | Разрешение конфликтов слияния. |
 | P-052 | 2025-02-02 | Docs: add undo reset revert guide | 1) docs/16-undo-reset-revert.md создан. 2) Ссылка в docs/README.md. 3) Различия undo/reset/revert, когда что применять. | docs/16-undo-reset-revert.md, docs/README.md, PROGRESS.md | ✅ Done | Безопасное откатывание изменений. |
 | P-051 | 2025-02-02 | Docs: add quickstart guide for daily commits | 1) docs/15-quickstart.md создан. 2) Ссылка в docs/README.md. 3) Цель/шаги/проверка для ежедневных коммитов. | docs/15-quickstart.md, docs/README.md, PROGRESS.md | ✅ Done | Быстрый старт для ежедневной работы. |
