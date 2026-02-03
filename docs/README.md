@@ -22,6 +22,8 @@
 16. [Отмена изменений: undo, reset, revert](16-undo-reset-revert.md) — когда что применять.
 17. [Конфликты слияния](17-merge-conflicts.md) — как разрешать конфликты merge/rebase.
 18. [Теги и релизы](18-tags-and-releases.md) — создание тегов и Release на GitHub.
+19. [Issues и метки: workflow](19-issues-labels-workflow.md) — задачи, метки, связь с PR.
+20. [Как пользоваться шаблонами](20-templates-howto.md) — issue и PR шаблоны.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 

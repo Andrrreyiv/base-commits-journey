@@ -6,6 +6,8 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-056 | 2025-02-02 | Docs: add templates usage guide | 1) docs/20-templates-howto.md создан. 2) Ссылка в docs/README.md. 3) Как пользоваться шаблонами issue и PR. | docs/20-templates-howto.md, docs/README.md, PROGRESS.md | ✅ Done | Гайд по шаблонам. |
+| P-055 | 2025-02-02 | Docs: add issues and labels workflow guide | 1) docs/19-issues-labels-workflow.md создан. 2) Ссылка в docs/README.md. 3) Issues, метки, связь с PR. | docs/19-issues-labels-workflow.md, docs/README.md, PROGRESS.md | ✅ Done | Workflow issues и labels. |
 | P-054 | 2025-02-02 | Docs: add tags and releases guide | 1) docs/18-tags-and-releases.md создан. 2) Ссылка в docs/README.md. 3) Создание тегов и Release. | docs/18-tags-and-releases.md, docs/README.md, PROGRESS.md | ✅ Done | Теги и релизы на GitHub. |
 | P-053 | 2025-02-02 | Docs: add merge conflicts guide | 1) docs/17-merge-conflicts.md создан. 2) Ссылка в docs/README.md. 3) Как находить и разрешать конфликты. | docs/17-merge-conflicts.md, docs/README.md, PROGRESS.md | ✅ Done | Разрешение конфликтов слияния. |
 | P-052 | 2025-02-02 | Docs: add undo reset revert guide | 1) docs/16-undo-reset-revert.md создан. 2) Ссылка в docs/README.md. 3) Различия undo/reset/revert, когда что применять. | docs/16-undo-reset-revert.md, docs/README.md, PROGRESS.md | ✅ Done | Безопасное откатывание изменений. |
