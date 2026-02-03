@@ -61,6 +61,16 @@ python scripts/validate_progress_ids.py
 
 **Типовые ошибки:** «ожидался P-00X, найден P-00Y» — добавь недостающую строку или исправь порядок в таблице; «дубликат ID» — удали или переименуй дубликат.
 
+### validate_docs_index.py
+
+Проверяет, что нумерованные гайды в docs/ (01-name.md … NN-name.md) перечислены в docs/README.md и все указанные в оглавлении файлы существуют.
+
+```bash
+python scripts/validate_docs_index.py
+```
+
+**Типовые ошибки:** «файл не найден в docs/» — создай файл или убери ссылку из оглавления; «файл не упомянут в docs/README.md» — добавь пункт в оглавление.
+
 ## Рекомендации
 
 - Перед коммитом: `python scripts/check_links.py && python scripts/validate_repo.py && python scripts/check_markdown_hygiene.py && python scripts/validate_progress_ids.py`.

@@ -6,6 +6,8 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-060 | 2025-02-02 | CI: wire docs index validator into workflow | 1) ci.yml: запуск validate_docs_index.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет оглавление docs. |
+| P-059 | 2025-02-02 | Scripts: add docs index validator | 1) scripts/validate_docs_index.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Проверка соответствия docs/README.md и файлов в docs/. | scripts/validate_docs_index.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Валидация оглавления docs. |
 | P-058 | 2025-02-02 | CI: wire progress id validator into workflow | 1) ci.yml: запуск validate_progress_ids.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет ID в PROGRESS. |
 | P-057 | 2025-02-02 | Scripts: add progress id validator | 1) scripts/validate_progress_ids.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Проверка последовательности P-001..P-N в PROGRESS.md. | scripts/validate_progress_ids.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Валидация ID в PROGRESS. |
 | P-056 | 2025-02-02 | Docs: add templates usage guide | 1) docs/20-templates-howto.md создан. 2) Ссылка в docs/README.md. 3) Как пользоваться шаблонами issue и PR. | docs/20-templates-howto.md, docs/README.md, PROGRESS.md | ✅ Done | Гайд по шаблонам. |
