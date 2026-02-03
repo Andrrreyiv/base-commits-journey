@@ -36,8 +36,13 @@ jobs:
       - name: Run heading checker
         run: python scripts/check_headings.py
 
+      - name: Roadmap stats
+        run: |
+          echo "## Stats" >> $GITHUB_STEP_SUMMARY
+          python scripts/roadmap_stats.py >> $GITHUB_STEP_SUMMARY
+
       - name: Job summary
         run: |
           echo "## CI checks" >> $GITHUB_STEP_SUMMARY
           echo "- Links, repo structure, markdown hygiene: OK" >> $GITHUB_STEP_SUMMARY
-          echo "- Progress IDs, docs index: OK" >> $GITHUB_STEP_SUMMARY
+          echo "- Progress IDs, docs index, headings: OK" >> $GITHUB_STEP_SUMMARY
