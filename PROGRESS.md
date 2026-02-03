@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-068 | 2025-02-02 | Scripts: add roadmap stats script | 1) scripts/roadmap_stats.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Статистика PROGRESS/ROADMAP. | scripts/roadmap_stats.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Статистика по roadmap. |
 | P-067 | 2025-02-02 | Docs: document changelog workflow | 1) docs/23-changelog-workflow.md создан. 2) Ссылка в docs/README.md. 3) Как вести CHANGELOG, хелпер. | docs/23-changelog-workflow.md, docs/README.md, PROGRESS.md | ✅ Done | Workflow CHANGELOG. |
 | P-066 | 2025-02-02 | Scripts: add changelog entry helper | 1) scripts/add_changelog_entry.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Добавление записи в CHANGELOG Unreleased. | scripts/add_changelog_entry.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Хелпер для CHANGELOG. |
 | P-065 | 2025-02-02 | CI: wire heading checker into workflow | 1) ci.yml: запуск check_headings.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет заголовки. |
