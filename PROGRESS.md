@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-087 | 2025-02-02 | Tests: add tests for large files checker | 1) tests/test_check_large_files.py. 2) Тесты для check_large_files. | tests/test_check_large_files.py, PROGRESS.md | ✅ Done | Тесты больших файлов. |
 | P-086 | 2025-02-02 | Tests: add tests for line endings checker | 1) tests/test_check_line_endings.py. 2) Тесты для check_line_endings. | tests/test_check_line_endings.py, PROGRESS.md | ✅ Done | Тесты переносов строк. |
 | P-085 | 2025-02-02 | Tests: add tests for heading checker | 1) tests/test_check_headings.py. 2) Тесты для check_headings. | tests/test_check_headings.py, PROGRESS.md | ✅ Done | Тесты заголовков. |
 | P-084 | 2025-02-02 | Tests: add tests for docs index validator | 1) tests/test_validate_docs_index.py. 2) Тесты для validate_docs_index. | tests/test_validate_docs_index.py, PROGRESS.md | ✅ Done | Тесты оглавления docs. |
