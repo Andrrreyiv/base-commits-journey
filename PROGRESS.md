@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-095 | 2025-02-02 | Tools: add next tasks suggestion from roadmap | 1) base_commit_coach --next по числу коммитов. 2) Документация. | tools/base_commit_coach.py, docs/29-cli-base-commit-coach.md, PROGRESS.md | ✅ Done | Подсказка следующей задачи из плана. |
 | P-091 | 2025-02-02 | Docs: document base commit coach cli | 1) docs/29-cli-base-commit-coach.md. 2) Ссылка в docs/README. | docs/29-cli-base-commit-coach.md, docs/README.md, PROGRESS.md | ✅ Done | Документация CLI. |
 | P-093 | 2025-02-02 | Tools: add next steps report command | 1) base_commit_coach: --report. 2) docs/README или tools обновлены. | tools/base_commit_coach.py, tools/README.md, PROGRESS.md | ✅ Done | Команда --report. |
 | P-094 | 2025-02-02 | Tools: add next tasks suggestion from roadmap | 1) base_commit_coach: --next. 2) Документация. | docs/29-cli-base-commit-coach.md, PROGRESS.md | ✅ Done | Команда --next. |

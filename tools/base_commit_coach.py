@@ -31,10 +31,41 @@ def cmd_report():
     sys.exit(0)
 
 
+# Следующие задачи плана (94–100) для подсказки --next
+PLAN_NEXT = [
+    (94, "Tools: add next tasks suggestion from roadmap"),
+    (95, "Docs: add daily workflow guide"),
+    (96, "Docs: add weekly review guide"),
+    (97, "Docs: add badges for license and last commit"),
+    (98, "CI: add stale issues workflow"),
+    (99, "Docs: document issue lifecycle"),
+    (100, "Chore: phase 2 consistency pass"),
+]
+
+
 def cmd_next():
-    """Подсказка: следующая задача из ROADMAP/PROGRESS."""
-    print("Следующий шаг: открой PROGRESS.md или ROADMAP.md, выбери следующую задачу по ID.")
-    print("Затем: добавь строку в PROGRESS, сделай изменения, git add, commit, push.")
+    """Подсказка: следующая задача из плана по номеру коммита."""
+    try:
+        r = subprocess.run(
+            ["git", "rev-list", "--count", "HEAD"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        n = int(r.stdout.strip())
+    except (subprocess.CalledProcessError, FileNotFoundError, ValueError):
+        n = 0
+    next_n = n + 1
+    for num, title in PLAN_NEXT:
+        if num == next_n:
+            print(f"Следующий коммит: #{num} — {title}")
+            print("Добавь строку в PROGRESS.md (следующий P-XXX), сделай изменения, git add, commit, push.")
+            sys.exit(0)
+    if next_n > 100:
+        print("Цель 100 коммитов достигнута. Дальше: финальная вычитка, теги, релиз.")
+    else:
+        print(f"Следующий номер: {next_n}. Открой PROGRESS.md и ROADMAP.md для выбора задачи.")
     sys.exit(0)
 
 
