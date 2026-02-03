@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-070 | 2025-02-02 | Docs: add verified email and contributions guide | 1) docs/24-verify-public-commits.md. 2) Ссылка в docs/README. 3) Verified email, как считаются contributions. | docs/24-verify-public-commits.md, docs/README.md, PROGRESS.md | ✅ Done | Верификация и contributions. |
 | P-069 | 2025-02-02 | CI: add roadmap stats to workflow summary | 1) ci.yml: запуск roadmap_stats.py, вывод в summary. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI summary со статистикой. |
 | P-068 | 2025-02-02 | Scripts: add roadmap stats script | 1) scripts/roadmap_stats.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Статистика PROGRESS/ROADMAP. | scripts/roadmap_stats.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Статистика по roadmap. |
 | P-067 | 2025-02-02 | Docs: document changelog workflow | 1) docs/23-changelog-workflow.md создан. 2) Ссылка в docs/README.md. 3) Как вести CHANGELOG, хелпер. | docs/23-changelog-workflow.md, docs/README.md, PROGRESS.md | ✅ Done | Workflow CHANGELOG. |

@@ -27,6 +27,10 @@
 21. [Отладка CI](21-ci-debugging.md) — как смотреть логи, типовые ошибки.
 22. [Чеклист здоровья репо](22-repo-health-checklist.md) — что проверить перед verify или релизом.
 23. [Workflow CHANGELOG](23-changelog-workflow.md) — как вести CHANGELOG.
+24. [Verified email и contributions](24-verify-public-commits.md) — верификация, учёт вклада.
+25. [Рекомендуемые метки](25-labels-reference.md) — справочник labels.
+26. [Настройка меток](26-labels-setup.md) — создание labels на GitHub.
+27. [Git hooks](27-git-hooks.md) — заметки про хуки.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
