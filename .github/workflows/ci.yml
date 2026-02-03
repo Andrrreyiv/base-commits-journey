@@ -29,3 +29,6 @@ jobs:
 
       - name: Run progress id validator
         run: python scripts/validate_progress_ids.py
+
+      - name: Run docs index validator
+        run: python scripts/validate_docs_index.py
