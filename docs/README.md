@@ -33,6 +33,7 @@
 27. [Git hooks](27-git-hooks.md) — заметки про хуки.
 28. [Гайд по тестам](28-testing.md) — как запускать и писать тесты.
 29. [CLI Base Commit Coach](29-cli-base-commit-coach.md) — подсказки по прогрессу.
+30. [Ежедневный workflow](30-daily-workflow.md) — как организовать день для 1–2 коммитов.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
