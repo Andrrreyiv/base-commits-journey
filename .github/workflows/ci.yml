@@ -26,3 +26,6 @@ jobs:
 
       - name: Run markdown hygiene
         run: python scripts/check_markdown_hygiene.py
+
+      - name: Run progress id validator
+        run: python scripts/validate_progress_ids.py
