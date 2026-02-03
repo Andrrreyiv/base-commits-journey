@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-075 | 2025-02-02 | CI: wire line endings checker into workflow | 1) ci.yml: запуск check_line_endings.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет line endings. |
 | P-074 | 2025-02-02 | Scripts: add line endings checker | 1) scripts/check_line_endings.py. 2) docs/13 обновлён. 3) LF, не CRLF. | scripts/check_line_endings.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Проверка переносов строк. |
 | P-073 | 2025-02-02 | Docs: add git hooks notes | 1) docs/27-git-hooks.md. 2) Заметки про pre-commit и др. | docs/27-git-hooks.md, PROGRESS.md | ✅ Done | Git hooks. |
 | P-072 | 2025-02-02 | Docs: add labels setup instructions | 1) docs/26-labels-setup.md. 2) Создание меток на GitHub. | docs/26-labels-setup.md, PROGRESS.md | ✅ Done | Настройка labels. |

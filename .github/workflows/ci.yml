@@ -36,6 +36,9 @@ jobs:
       - name: Run heading checker
         run: python scripts/check_headings.py
 
+      - name: Run line endings checker
+        run: python scripts/check_line_endings.py
+
       - name: Roadmap stats
         run: |
           echo "## Stats" >> $GITHUB_STEP_SUMMARY
