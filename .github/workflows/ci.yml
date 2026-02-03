@@ -33,6 +33,9 @@ jobs:
       - name: Run docs index validator
         run: python scripts/validate_docs_index.py
 
+      - name: Run heading checker
+        run: python scripts/check_headings.py
+
       - name: Job summary
         run: |
           echo "## CI checks" >> $GITHUB_STEP_SUMMARY
