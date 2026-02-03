@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-085 | 2025-02-02 | Tests: add tests for heading checker | 1) tests/test_check_headings.py. 2) Тесты для check_headings. | tests/test_check_headings.py, PROGRESS.md | ✅ Done | Тесты заголовков. |
 | P-084 | 2025-02-02 | Tests: add tests for docs index validator | 1) tests/test_validate_docs_index.py. 2) Тесты для validate_docs_index. | tests/test_validate_docs_index.py, PROGRESS.md | ✅ Done | Тесты оглавления docs. |
 | P-083 | 2025-02-02 | Tests: add tests for progress id validator | 1) tests/test_validate_progress_ids.py. 2) Тесты для validate_progress_ids. | tests/test_validate_progress_ids.py, PROGRESS.md | ✅ Done | Тесты валидации ID. |
 | P-082 | 2025-02-02 | Tests: add tests for markdown hygiene checker | 1) tests/test_check_markdown_hygiene.py. 2) Тесты для check_markdown_hygiene. | tests/test_check_markdown_hygiene.py, PROGRESS.md | ✅ Done | Тесты гигиены Markdown. |
