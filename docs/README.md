@@ -31,6 +31,7 @@
 25. [Рекомендуемые метки](25-labels-reference.md) — справочник labels.
 26. [Настройка меток](26-labels-setup.md) — создание labels на GitHub.
 27. [Git hooks](27-git-hooks.md) — заметки про хуки.
+28. [Гайд по тестам](28-testing.md) — как запускать и писать тесты.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
