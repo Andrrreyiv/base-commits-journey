@@ -71,6 +71,16 @@ python scripts/validate_docs_index.py
 
 **Типовые ошибки:** «файл не найден в docs/» — создай файл или убери ссылку из оглавления; «файл не упомянут в docs/README.md» — добавь пункт в оглавление.
 
+### check_headings.py
+
+Проверяет согласованность заголовков в Markdown: один H1 на файл, без пропуска уровней (например не ## сразу ####).
+
+```bash
+python scripts/check_headings.py
+```
+
+**Типовые ошибки:** «H1 должен быть только в начале» — оставь один # в начале; «пропуск уровня заголовка» — добавь промежуточный уровень (## перед ####).
+
 ## Рекомендации
 
 - Перед коммитом: `python scripts/check_links.py && python scripts/validate_repo.py && python scripts/check_markdown_hygiene.py && python scripts/validate_progress_ids.py`.
