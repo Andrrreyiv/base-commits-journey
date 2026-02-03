@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-074 | 2025-02-02 | Scripts: add line endings checker | 1) scripts/check_line_endings.py. 2) docs/13 обновлён. 3) LF, не CRLF. | scripts/check_line_endings.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Проверка переносов строк. |
 | P-073 | 2025-02-02 | Docs: add git hooks notes | 1) docs/27-git-hooks.md. 2) Заметки про pre-commit и др. | docs/27-git-hooks.md, PROGRESS.md | ✅ Done | Git hooks. |
 | P-072 | 2025-02-02 | Docs: add labels setup instructions | 1) docs/26-labels-setup.md. 2) Создание меток на GitHub. | docs/26-labels-setup.md, PROGRESS.md | ✅ Done | Настройка labels. |
 | P-071 | 2025-02-02 | Docs: add recommended labels reference | 1) docs/25-labels-reference.md. 2) Справочник меток. | docs/25-labels-reference.md, PROGRESS.md | ✅ Done | Справочник labels. |
