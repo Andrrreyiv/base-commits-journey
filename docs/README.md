@@ -24,6 +24,7 @@
 18. [Теги и релизы](18-tags-and-releases.md) — создание тегов и Release на GitHub.
 19. [Issues и метки: workflow](19-issues-labels-workflow.md) — задачи, метки, связь с PR.
 20. [Как пользоваться шаблонами](20-templates-howto.md) — issue и PR шаблоны.
+21. [Отладка CI](21-ci-debugging.md) — как смотреть логи, типовые ошибки.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 

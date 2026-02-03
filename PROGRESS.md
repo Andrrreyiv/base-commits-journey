@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-061 | 2025-02-02 | Docs: add CI debugging guide | 1) docs/21-ci-debugging.md создан. 2) Ссылка в docs/README.md. 3) Как смотреть логи, типовые ошибки. | docs/21-ci-debugging.md, docs/README.md, PROGRESS.md | ✅ Done | Отладка CI. |
 | P-060 | 2025-02-02 | CI: wire docs index validator into workflow | 1) ci.yml: запуск validate_docs_index.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет оглавление docs. |
 | P-059 | 2025-02-02 | Scripts: add docs index validator | 1) scripts/validate_docs_index.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Проверка соответствия docs/README.md и файлов в docs/. | scripts/validate_docs_index.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Валидация оглавления docs. |
 | P-058 | 2025-02-02 | CI: wire progress id validator into workflow | 1) ci.yml: запуск validate_progress_ids.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет ID в PROGRESS. |
