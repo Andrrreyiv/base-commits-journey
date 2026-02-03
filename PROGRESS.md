@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-073 | 2025-02-02 | Docs: add git hooks notes | 1) docs/27-git-hooks.md. 2) Заметки про pre-commit и др. | docs/27-git-hooks.md, PROGRESS.md | ✅ Done | Git hooks. |
 | P-072 | 2025-02-02 | Docs: add labels setup instructions | 1) docs/26-labels-setup.md. 2) Создание меток на GitHub. | docs/26-labels-setup.md, PROGRESS.md | ✅ Done | Настройка labels. |
 | P-071 | 2025-02-02 | Docs: add recommended labels reference | 1) docs/25-labels-reference.md. 2) Справочник меток. | docs/25-labels-reference.md, PROGRESS.md | ✅ Done | Справочник labels. |
 | P-070 | 2025-02-02 | Docs: add verified email and contributions guide | 1) docs/24-verify-public-commits.md. 2) Ссылка в docs/README. 3) Verified email, как считаются contributions. | docs/24-verify-public-commits.md, docs/README.md, PROGRESS.md | ✅ Done | Верификация и contributions. |
