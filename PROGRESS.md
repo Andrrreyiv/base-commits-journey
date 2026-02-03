@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-080 | 2025-02-02 | Tests: add tests for link checker | 1) tests/test_check_links.py. 2) Тесты для check_links. | tests/test_check_links.py, PROGRESS.md | ✅ Done | Тесты проверки ссылок. |
 | P-079 | 2025-02-02 | CI: run unit tests in workflow | 1) ci.yml: python -m unittest discover -v. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI запускает тесты. |
 | P-078 | 2025-02-02 | Tests: add unittest scaffolding | 1) tests/README.md, tests/__init__.py. 2) Структура для unittest. | tests/README.md, tests/__init__.py, PROGRESS.md | ✅ Done | Каркас тестов. |
 | P-077 | 2025-02-02 | CI: wire large files checker into workflow | 1) ci.yml: запуск check_large_files.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет размер файлов. |
