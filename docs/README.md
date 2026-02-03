@@ -26,6 +26,7 @@
 20. [Как пользоваться шаблонами](20-templates-howto.md) — issue и PR шаблоны.
 21. [Отладка CI](21-ci-debugging.md) — как смотреть логи, типовые ошибки.
 22. [Чеклист здоровья репо](22-repo-health-checklist.md) — что проверить перед verify или релизом.
+23. [Workflow CHANGELOG](23-changelog-workflow.md) — как вести CHANGELOG.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
