@@ -32,3 +32,9 @@ jobs:
 
       - name: Run docs index validator
         run: python scripts/validate_docs_index.py
+
+      - name: Job summary
+        run: |
+          echo "## CI checks" >> $GITHUB_STEP_SUMMARY
+          echo "- Links, repo structure, markdown hygiene: OK" >> $GITHUB_STEP_SUMMARY
+          echo "- Progress IDs, docs index: OK" >> $GITHUB_STEP_SUMMARY
