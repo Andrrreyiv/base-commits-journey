@@ -45,6 +45,7 @@
 .
 ├── docs/           # Документация: гайды 01–14, FAQ, глоссарий
 ├── scripts/        # Скрипты проверки (Python stdlib): ссылки, валидация, гигиена, прогресс
+├── tools/          # CLI: base_commit_coach (--report, --next)
 ├── .github/        # GitHub: workflows (CI), issue/PR шаблоны, CODEOWNERS, dependabot
 ├── .vscode/        # Настройки редактора (Cursor/VS Code)
 ├── README.md       # Главная страница
