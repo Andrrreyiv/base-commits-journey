@@ -25,6 +25,7 @@
 19. [Issues и метки: workflow](19-issues-labels-workflow.md) — задачи, метки, связь с PR.
 20. [Как пользоваться шаблонами](20-templates-howto.md) — issue и PR шаблоны.
 21. [Отладка CI](21-ci-debugging.md) — как смотреть логи, типовые ошибки.
+22. [Чеклист здоровья репо](22-repo-health-checklist.md) — что проверить перед verify или релизом.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 

@@ -6,6 +6,8 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-064 | 2025-02-02 | Scripts: add heading consistency checker | 1) scripts/check_headings.py создан. 2) docs/13-scripts-usage.md обновлён. 3) Один H1, без пропуска уровней. | scripts/check_headings.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Согласованность заголовков. |
+| P-063 | 2025-02-02 | Docs: add repository health checklist | 1) docs/22-repo-health-checklist.md создан. 2) Ссылка в docs/README.md. 3) Чеклист перед verify/релизом. | docs/22-repo-health-checklist.md, docs/README.md, PROGRESS.md | ✅ Done | Чеклист здоровья репо. |
 | P-062 | 2025-02-02 | CI: add job summary output | 1) ci.yml: вывод в \$GITHUB_STEP_SUMMARY. 2) Краткий отчёт по проверкам. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | Итог CI в интерфейсе Actions. |
 | P-061 | 2025-02-02 | Docs: add CI debugging guide | 1) docs/21-ci-debugging.md создан. 2) Ссылка в docs/README.md. 3) Как смотреть логи, типовые ошибки. | docs/21-ci-debugging.md, docs/README.md, PROGRESS.md | ✅ Done | Отладка CI. |
 | P-060 | 2025-02-02 | CI: wire docs index validator into workflow | 1) ci.yml: запуск validate_docs_index.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет оглавление docs. |
