@@ -39,6 +39,9 @@ jobs:
       - name: Run line endings checker
         run: python scripts/check_line_endings.py
 
+      - name: Run large files checker
+        run: python scripts/check_large_files.py
+
       - name: Roadmap stats
         run: |
           echo "## Stats" >> $GITHUB_STEP_SUMMARY
