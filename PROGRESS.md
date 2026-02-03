@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-051 | 2025-02-02 | Docs: add quickstart guide for daily commits | 1) docs/15-quickstart.md создан. 2) Ссылка в docs/README.md. 3) Цель/шаги/проверка для ежедневных коммитов. | docs/15-quickstart.md, docs/README.md, PROGRESS.md | ✅ Done | Быстрый старт для ежедневной работы. |
 | P-050 | 2025-02-02 | Chore: final consistency and formatting pass | 1) Единый стиль заголовков/ссылок/терминов. 2) Опечатки, рабочие ссылки. | несколько файлов, PROGRESS.md | ✅ Done | Финальная согласованность. |
 | P-049 | 2025-02-02 | Chore: add dependabot config for GitHub Actions | 1) .github/dependabot.yml создан. 2) weekly для обновления actions. | .github/dependabot.yml, PROGRESS.md | ✅ Done | Автообновление actions. |
 | P-048 | 2025-02-02 | Docs: add repository structure section | 1) README: дерево папок и назначение каждой. | README.md, PROGRESS.md | ✅ Done | Структура репо. |

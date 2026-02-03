@@ -18,6 +18,7 @@
 12. [Чеклист верификации гильдии](12-guild-verify-checklist.md) — connect GitHub, что проверить.
 13. [Использование скриптов](13-scripts-usage.md) — как запускать scripts/*.
 14. [Работа в Cursor](14-cursor-workflow.md) — агент, diff, что не коммитить.
+15. [Quickstart: ежедневные коммиты](15-quickstart.md) — цикл на день, шаги и проверки.
 
 Дополнительно: [FAQ](FAQ.md), [Глоссарий](GLOSSARY.md).
 
