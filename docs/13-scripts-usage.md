@@ -51,7 +51,17 @@ python scripts/update_progress.py
 
 **Типовые ошибки:** «git rev-list не выполнился» — убедись, что находишься в корне репо и git установлен.
 
+### validate_progress_ids.py
+
+Проверяет, что в PROGRESS.md ID в таблице идут подряд без пропусков и дубликатов (P-001, P-002, …).
+
+```bash
+python scripts/validate_progress_ids.py
+```
+
+**Типовые ошибки:** «ожидался P-00X, найден P-00Y» — добавь недостающую строку или исправь порядок в таблице; «дубликат ID» — удали или переименуй дубликат.
+
 ## Рекомендации
 
-- Перед коммитом: `python scripts/check_links.py && python scripts/validate_repo.py && python scripts/check_markdown_hygiene.py`.
+- Перед коммитом: `python scripts/check_links.py && python scripts/validate_repo.py && python scripts/check_markdown_hygiene.py && python scripts/validate_progress_ids.py`.
 - В CI эти скрипты запускаются автоматически при push и PR.
