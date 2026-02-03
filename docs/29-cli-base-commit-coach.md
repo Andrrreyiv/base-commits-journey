@@ -11,7 +11,7 @@
 
 - `python tools/base_commit_coach.py --help` — справка.
 - `python tools/base_commit_coach.py --report` — число коммитов на HEAD, число записей в PROGRESS.
-- `python tools/base_commit_coach.py --next` — подсказка: открыть PROGRESS/ROADMAP и выбрать следующую задачу.
+- `python tools/base_commit_coach.py --next` — подсказка: открыть PROGRESS/ROADMAP и выбрать следующую задачу по ID; затем добавить строку в PROGRESS, сделать изменения, commit, push.
 
 ## Требования
 
