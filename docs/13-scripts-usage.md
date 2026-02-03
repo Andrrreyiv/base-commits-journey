@@ -81,6 +81,24 @@ python scripts/check_headings.py
 
 **Типовые ошибки:** «H1 должен быть только в начале» — оставь один # в начале; «пропуск уровня заголовка» — добавь промежуточный уровень (## перед ####).
 
+### add_changelog_entry.py
+
+Добавляет пункт в секцию [Unreleased] в CHANGELOG.md. Аргументы: секция (например «Добавлено»), текст.
+
+```bash
+python scripts/add_changelog_entry.py "Добавлено" "Краткое описание"
+```
+
+**Типовые ошибки:** «секция [Unreleased] не найдена» — добавь блок ## [Unreleased] в CHANGELOG.
+
+### roadmap_stats.py
+
+Выводит краткую статистику: число записей в PROGRESS, число этапов в ROADMAP. Для CI summary и локальной проверки.
+
+```bash
+python scripts/roadmap_stats.py
+```
+
 ## Рекомендации
 
 - Перед коммитом: `python scripts/check_links.py && python scripts/validate_repo.py && python scripts/check_markdown_hygiene.py && python scripts/validate_progress_ids.py`.
