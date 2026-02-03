@@ -6,6 +6,7 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-078 | 2025-02-02 | Tests: add unittest scaffolding | 1) tests/README.md, tests/__init__.py. 2) Структура для unittest. | tests/README.md, tests/__init__.py, PROGRESS.md | ✅ Done | Каркас тестов. |
 | P-077 | 2025-02-02 | CI: wire large files checker into workflow | 1) ci.yml: запуск check_large_files.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет размер файлов. |
 | P-076 | 2025-02-02 | Scripts: add large files checker | 1) scripts/check_large_files.py. 2) docs/13 обновлён. 3) Порог 1 MiB. | scripts/check_large_files.py, docs/13-scripts-usage.md, PROGRESS.md | ✅ Done | Проверка больших файлов. |
 | P-075 | 2025-02-02 | CI: wire line endings checker into workflow | 1) ci.yml: запуск check_line_endings.py. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет line endings. |
