@@ -6,6 +6,8 @@
 
 | ID | Date | Title | Acceptance criteria | Files changed | Status | Notes |
 |----|------|-------|---------------------|---------------|--------|-------|
+| P-091 | 2025-02-02 | Docs: document base commit coach cli | 1) docs/29-cli-base-commit-coach.md. 2) Ссылка в docs/README. | docs/29-cli-base-commit-coach.md, docs/README.md, PROGRESS.md | ✅ Done | Документация CLI. |
+| P-092 | 2025-02-02 | CI: add cli smoke check | 1) ci.yml: python tools/base_commit_coach.py --help. | .github/workflows/ci.yml, PROGRESS.md | ✅ Done | CI проверяет CLI. |
 | P-090 | 2025-02-02 | Tools: add base commit coach cli | 1) tools/base_commit_coach.py + tools/README. 2) README: секция tools. | tools/base_commit_coach.py, tools/README.md, README.md, PROGRESS.md | ✅ Done | CLI для подсказок. |
 | P-089 | 2025-02-02 | Chore: add consistent fixtures structure | 1) tests/fixtures/ + README. | tests/fixtures/README.md, PROGRESS.md | ✅ Done | Структура fixtures. |
 | P-088 | 2025-02-02 | Docs: add testing guide | 1) docs/28-testing.md. 2) Ссылка в docs/README. 3) Как запускать тесты. | docs/28-testing.md, docs/README.md, PROGRESS.md | ✅ Done | Гайд по тестам. |
